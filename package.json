@@ -1,5 +1,5 @@
 {
-  "name": "native-file-system-adapter",
+  "name": "@eluve/native-file-system-adapter",
   "version": "3.0.0",
   "description": "Native File System API",
   "main": "src/es6.js",
@@ -17,10 +17,6 @@
     "build": "rm -rf dist && rollup -c rollup.config.js",
     "_prepublishOnly": "rm -rf types && tsc -p jsconfig.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jimmywarting/native-file-system-adapter.git"
-  },
   "engines": {
     "node": ">=14.8.0"
   },
@@ -37,17 +33,7 @@
     "file system access",
     "spec"
   ],
-  "author": "Jimmy Wärting",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jimmywarting/native-file-system-adapter/issues"
-  },
-  "contributors": [
-    {
-      "name": "Alexandru Ciuca"
-    }
-  ],
-  "homepage": "https://github.com/jimmywarting/native-file-system-adapter#readme",
   "optionalDependencies": {
     "fetch-blob": "^3.2.0"
   },
@@ -65,16 +51,6 @@
       "DataTransfer"
     ]
   },
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/jimmywarting"
-    },
-    {
-      "type": "paypal",
-      "url": "https://paypal.me/jimmywarting"
-    }
-  ],
   "devDependencies": {
     "@types/filesystem": "^0.0.32",
     "rollup": "^2.67.3",
